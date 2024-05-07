@@ -35,10 +35,11 @@ const Index = () => {
           data-aos="fade-down"
           data-aos-delay="300"
           data-aos-duration="300"
+          title="João e Maria Cafeteria"
         >
           <Image
             className="w-full h-full"
-            src="/logo.jpg"
+            src="/logo.png"
             alt=""
             width={150}
             height={150}

@@ -41,6 +41,8 @@ const Index = () => {
                     className="text-[#322C2B] hover:bg-coffee-light/80"
                     href=""
                     target="_blank"
+                    title="Ir para Instagram João & Maria - Cafeteria"
+                    aria-label="Ir para Instagram João & Maria - Cafeteria"
                   >
                     <FaInstagram className="text-[#322C2B] hover:scale-125 ease-linear" />
                   </Link>
@@ -50,6 +52,8 @@ const Index = () => {
                     className="text-[#322C2B] hover:bg-coffee-light/80"
                     href=""
                     target="_blank"
+                    title="Ir para Facebook João & Maria - Cafeteria"
+                    aria-label="Ir para Facebook João & Maria - Cafeteria"
                   >
                     <FaFacebookF className="text-[#322C2B] hover:scale-125 ease-linear" />
                   </Link>
@@ -59,6 +63,8 @@ const Index = () => {
                     className="text-[#322C2B] hover:bg-coffee-light/80"
                     href=""
                     target="_blank"
+                    title="Ir para WhatsApp João & Maria - Cafeteria"
+                    aria-label="Ir para WhatsApp João & Maria - Cafeteria"
                   >
                     <FaWhatsapp className="text-[#322C2B] hover:scale-125 ease-linear" />
                   </Link>
@@ -134,6 +140,8 @@ const Index = () => {
                 <Link
                   href="https://www.instagram.com/joaoemaria.cafeteria/"
                   target="_blank"
+                  title="Imagem Instagram João & Maria - Cafeteria"
+                  aria-label="Imagem Instagram João & Maria - Cafeteria"
                 >
                   <Image
                     className="w-full h-full"
@@ -149,6 +157,8 @@ const Index = () => {
                 <Link
                   href="https://www.instagram.com/joaoemaria.cafeteria/"
                   target="_blank"
+                  title="Imagem Instagram João & Maria - Cafeteria"
+                  aria-label="Imagem Instagram João & Maria - Cafeteria"
                 >
                   <Image
                     className="w-full h-full"
@@ -164,6 +174,8 @@ const Index = () => {
                 <Link
                   href="https://www.instagram.com/joaoemaria.cafeteria/"
                   target="_blank"
+                  title="Imagem Instagram João & Maria - Cafeteria"
+                  aria-label="Imagem Instagram João & Maria - Cafeteria"
                 >
                   <Image
                     className="w-full h-full"
@@ -179,6 +191,8 @@ const Index = () => {
                 <Link
                   href="https://www.instagram.com/joaoemaria.cafeteria/"
                   target="_blank"
+                  title="Imagem Instagram João & Maria - Cafeteria"
+                  aria-label="Imagem Instagram João & Maria - Cafeteria"
                 >
                   <Image
                     className="w-full h-full"
@@ -194,6 +208,8 @@ const Index = () => {
                 <Link
                   href="https://www.instagram.com/joaoemaria.cafeteria/"
                   target="_blank"
+                  title="Imagem Instagram João & Maria - Cafeteria"
+                  aria-label="Imagem Instagram João & Maria - Cafeteria"
                 >
                   <Image
                     className="w-full h-full"
@@ -209,6 +225,8 @@ const Index = () => {
                 <Link
                   href="https://www.instagram.com/joaoemaria.cafeteria/"
                   target="_blank"
+                  title="Imagem Instagram João & Maria - Cafeteria"
+                  aria-label="Imagem Instagram João & Maria - Cafeteria"
                 >
                   <Image
                     className="w-full h-full"

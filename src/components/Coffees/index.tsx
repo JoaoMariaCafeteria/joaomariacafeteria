@@ -61,7 +61,7 @@ const Index = () => {
         <Swiper
           className="md:!px-0"
           slidesPerView={1}
-          spaceBetween={24}
+          spaceBetween={18}
           speed={800}
           autoHeight
           loop={true}
@@ -75,20 +75,20 @@ const Index = () => {
               spaceBetween: 18,
             },
             460: {
-              slidesPerView: 2,
+              slidesPerView: 1,
               spaceBetween: 18,
             },
             640: {
-              slidesPerView: 3,
+              slidesPerView: 2,
               spaceBetween: 24,
             },
             1250: {
-              slidesPerView: 4,
+              slidesPerView: 3,
               spaceBetween: 24,
             },
           }}
         >
-          <SwiperSlide className="overflow-hidden h-full p-0 shadow-lg rounded-[16px]">
+          <SwiperSlide className="overflow-hidden h-full p-0 shadow-md rounded-[16px]">
             <Link className="group" href="">
               <div className="overflow-hidden w-full h-[366px]">
                 <Image
@@ -112,7 +112,7 @@ const Index = () => {
               </div>
             </Link>
           </SwiperSlide>
-          <SwiperSlide className="overflow-hidden h-full p-0 shadow-lg rounded-[16px]">
+          <SwiperSlide className="overflow-hidden h-full p-0 shadow-md rounded-[16px]">
             <Link className="group" href="">
               <div className="overflow-hidden w-full h-[366px]">
                 <Image
@@ -136,7 +136,7 @@ const Index = () => {
               </div>
             </Link>
           </SwiperSlide>
-          <SwiperSlide className="overflow-hidden h-full p-0 shadow-lg rounded-[16px]">
+          <SwiperSlide className="overflow-hidden h-full p-0 shadow-md rounded-[16px]">
             <Link className="group" href="">
               <div className="overflow-hidden w-full h-[366px]">
                 <Image
@@ -160,7 +160,7 @@ const Index = () => {
               </div>
             </Link>
           </SwiperSlide>
-          <SwiperSlide className="overflow-hidden h-full p-0 shadow-lg rounded-[16px]">
+          <SwiperSlide className="overflow-hidden h-full p-0 shadow-md rounded-[16px]">
             <Link className="group" href="">
               <div className="overflow-hidden w-full h-[366px]">
                 <Image
@@ -184,7 +184,7 @@ const Index = () => {
               </div>
             </Link>
           </SwiperSlide>
-          <SwiperSlide className="overflow-hidden h-full p-0 shadow-lg rounded-[16px]">
+          <SwiperSlide className="overflow-hidden h-full p-0 shadow-md rounded-[16px]">
             <Link className="group" href="">
               <div className="overflow-hidden w-full h-[366px]">
                 <Image
@@ -208,7 +208,7 @@ const Index = () => {
               </div>
             </Link>
           </SwiperSlide>
-          <SwiperSlide className="overflow-hidden h-full p-0 shadow-lg rounded-[16px]">
+          <SwiperSlide className="overflow-hidden h-full p-0 shadow-md rounded-[16px]">
             <Link className="group" href="">
               <div className="overflow-hidden w-full h-[366px]">
                 <Image

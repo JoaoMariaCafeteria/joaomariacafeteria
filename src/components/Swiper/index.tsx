@@ -25,6 +25,7 @@ const Index = () => {
       <div className="flex gap-5 item-center justify-end mb-[16px]">
         <button
           className="w-8 h-8 md:w-12 md:h-12 bg-coffee-light rounded-full flex items-center justify-center hover:bg-coffee-light/80 transition-all ease-linear text-white hover:text-white/80"
+          aria-label="Prev"
           onClick={() => {
             swiperRef.current?.slidePrev();
           }}
@@ -33,6 +34,7 @@ const Index = () => {
         </button>
         <button
           className="w-8 h-8 md:w-12 md:h-12 bg-coffee-light rounded-full flex items-center justify-center hover:bg-coffee-light/80 transition-all ease-linear text-white hover:text-white/80"
+          aria-label="Next"
           onClick={() => {
             swiperRef.current?.slideNext();
           }}
@@ -42,7 +44,7 @@ const Index = () => {
       </div>
 
       <Swiper
-        className="md:!px-3"
+        className="md:!px-3 !py-2"
         slidesPerView={1}
         spaceBetween={24}
         speed={800}
@@ -71,7 +73,7 @@ const Index = () => {
           },
         }}
       >
-        <SwiperSlide className="h-full p-5 shadow-lg rounded-[16px] mb-3">
+        <SwiperSlide className="h-full p-5 shadow-md rounded-[16px] mb-3">
           <div className="flex items-center gap-2 mb-5">
             {Array(5)
               .fill(1)
@@ -100,7 +102,7 @@ const Index = () => {
             alguns dias atrás
           </span>
         </SwiperSlide>
-        <SwiperSlide className="h-full p-5 shadow-lg rounded-[16px]">
+        <SwiperSlide className="h-full p-5 shadow-md rounded-[16px]">
           <div className="flex items-center gap-2 mb-5">
             {Array(5)
               .fill(1)
@@ -131,7 +133,7 @@ const Index = () => {
             alguns dias atrás
           </span>
         </SwiperSlide>
-        <SwiperSlide className="h-full p-5 shadow-lg rounded-[16px]">
+        <SwiperSlide className="h-full p-5 shadow-md rounded-[16px]">
           <div className="flex items-center gap-2 mb-5">
             {Array(5)
               .fill(1)
@@ -163,7 +165,7 @@ const Index = () => {
             algumas semanas atrás
           </span>
         </SwiperSlide>
-        <SwiperSlide className="h-full p-5 shadow-lg rounded-[16px]">
+        <SwiperSlide className="h-full p-5 shadow-md rounded-[16px]">
           <div className="flex items-center gap-2 mb-5">
             {Array(5)
               .fill(1)

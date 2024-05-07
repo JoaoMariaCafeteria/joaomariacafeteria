@@ -12,7 +12,7 @@ const Index = () => {
       <div className="container mx-auto px-4 md:px-0">
         <div className="rounded-lg p-6 md:px-0 md:py-6 shadow-md w-full mx-auto -mt-[60px] bg-white flex items-start justify-center flex-col md:flex-row gap-10 ">
           <div
-            className="border-b-2 md:border-b-0 md:border-r-2 border-[#322C2B]/10 md:px-6 w-fit pb-8"
+            className="border-b-2 md:border-b-0 md:border-r border-[#322C2B]/10 md:px-6 w-fit pb-8"
             data-aos="fade-up"
             data-aos-delay="300"
             data-aos-duration="300"
@@ -34,7 +34,7 @@ const Index = () => {
               target=" _blank"
               title="Chamar no Whatsapp"
             >
-              <span className="whitespace-nowrap">Faça uma reserva</span>
+              <span className="whitespace-nowrap">Fazer reserva</span>
               <FaWhatsapp
                 className=" group-hover:translate-x-2 transition-all ease-linear"
                 size={28}

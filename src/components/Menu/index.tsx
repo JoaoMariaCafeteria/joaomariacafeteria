@@ -4,7 +4,7 @@ const Index = () => {
       <div className="container mx-auto px-4 md:px-0">
         <div className="flex flex-col md:flex-row gap-10 justify-center">
           <div
-            className="rounded-lg p-4 md:p-10 shadow-lg w-full"
+            className="rounded-lg p-4 md:p-10 shadow-md w-full"
             data-aos="fade-up"
             data-aos-delay="300"
             data-aos-duration="300"
@@ -67,7 +67,7 @@ const Index = () => {
             </ul>
           </div>
           <div
-            className="rounded-lg p-4 md:p-10 shadow-lg w-full"
+            className="rounded-lg p-4 md:p-10 shadow-md w-full"
             data-aos="fade-up"
             data-aos-delay="500"
             data-aos-duration="500"
@@ -79,9 +79,7 @@ const Index = () => {
               <li className="flex justify-between">
                 <div className="text-[24px] text-[#322C2B] text-body font-semibold">
                   Ice coffee <br />
-                  <p className="text-[#322C2B]/80 text-[16px]">
-                    Café fresco e leite vaporizado
-                  </p>
+                  <p className="text-[#322C2B]/80 text-[16px]">Café gelado</p>
                 </div>
                 <p className="text-[#322C2B]/80 text-[18px] font-bold">
                   R$ 15,99
@@ -91,7 +89,7 @@ const Index = () => {
                 <div className="text-[24px] text-[#322C2B] text-body font-semibold">
                   Chocolate <br />
                   <p className="text-[#322C2B]/80 text-[16px]">
-                    Café fresco e leite vaporizado
+                    Chocolate (100ml)
                   </p>
                 </div>
                 <p className="text-[#322C2B]/80 text-[18px] font-bold">
@@ -101,9 +99,7 @@ const Index = () => {
               <li className="flex justify-between">
                 <div className="text-[24px] text-[#322C2B] text-body font-semibold">
                   Soda Italiana <br />
-                  <p className="text-[#322C2B]/80 text-[16px]">
-                    Café fresco e leite vaporizado
-                  </p>
+                  <p className="text-[#322C2B]/80 text-[16px]">...</p>
                 </div>
                 <p className="text-[#322C2B]/80 text-[18px] font-bold">
                   R$ 12,50

@@ -7,7 +7,7 @@ const Index = () => {
   return (
     <section className="pt-[0px] pb-[40px] md:pt-[0px] md:pb-[80px]">
       <div className="container mx-auto px-4 md:px-0">
-        <div className="flex flex-col justify-center items-center w-full p-4 md:p-10 rounded-lg shadow-lg text-center">
+        <div className="flex flex-col justify-center items-center w-full p-4 md:p-10 rounded-lg shadow-md text-center">
             <h2 className="text-[32px] md:text-[50px] font-title text-[#322C2B] mb-[8px] font-bold uppercase"
           data-aos="fade-down"
           data-aos-delay="300"
@@ -26,7 +26,7 @@ const Index = () => {
           data-aos-delay="500"
           data-aos-duration="500"></div>
 
-            <p className="text-[#322C2B]/80 text-[20px] font-semibold text-center py-10"
+            <p className="text-[#322C2B]/80 text-[20px] font-semibold text-center py-10 w-full max-w-[1100px]"
           data-aos="fade-down"
           data-aos-delay="500"
           data-aos-duration="500">Aqui nós somos apaixonados por café, e todo o processo até ele chegar na sua xícara. Prezamos por produtos de alta qualidade e atendimento excepcional, para garantir que a sua experiência seja o nosso maior valor</p>
@@ -41,7 +41,7 @@ const Index = () => {
               data-aos-delay="900"
               data-aos-duration="900"
             >
-              <span className="whitespace-nowrap">Faça uma reserva</span>
+              <span className="whitespace-nowrap">Fazer reserva</span>
               <FaWhatsapp
                 className=" group-hover:translate-x-2 transition-all ease-linear"
                 size={28}
